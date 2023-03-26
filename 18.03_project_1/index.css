@@ -1,0 +1,58 @@
+:root{ 
+  --swiper-theme-color: black;
+  --font-size-5: 5px;
+  --font-size-10: 10px;
+  --font-size-15: 15px;
+  --font-size-20: 20px;
+  --font-size-30: 30px;
+
+  --font-color-black: #000000;
+
+  --text-decoration-none: none;
+
+  --margin-0: 0px;
+  --margin-5: 5px;
+  --margin-10: 10px;
+  --margin-15: 15px;
+  --margin-20: 20px;
+
+  --background-color-colorless: 0;
+  --background-color-dim: #f7f7f7;
+  --background-color-white: #ffffff;
+
+  --width-440px: 440px;
+
+  --border-0: 0;
+
+  --display-f: flex;  
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color-dim);
+}
+.wrapper {
+  background-color: var(--background-color-white);
+  max-width: 1320px;
+  margin: 15px auto;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0,0.1);
+}
+.sticky {
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  margin: 25px 0px 0px 0px;
+}
+#heading {
+  text-align: center;
+}
