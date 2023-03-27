@@ -12,6 +12,10 @@
 .header__rightside {
   margin-right: var(--margin-15);
 }
+.header__rightside img{
+  width: 35px;
+  cursor: pointer;
+}
 .header__leftside__links {
   text-decoration: var(--text-decoration-none);
   font-size: 35px;

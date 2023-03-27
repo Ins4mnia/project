@@ -10,7 +10,7 @@ class Header {
             <p>Logo</p>
           </div>
           <div class="header__rightside">
-            <img src="./img/header/header__basket.png" width="35px">
+            <img src="./img/header/header__basket.png">
           </div>
         </header>
       </div>

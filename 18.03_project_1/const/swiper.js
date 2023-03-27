@@ -22,4 +22,4 @@ const swiper = new Swiper('.swiper', {
   },
   loop: false,
   speed:400,
-});
+}); 
