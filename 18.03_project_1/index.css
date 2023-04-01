@@ -17,17 +17,24 @@
   --margin-20: 20px;
 
   --background-color-colorless: 0;
+  --background-color-black: #000000;
   --background-color-dim: #f7f7f7;
   --background-color-white: #ffffff;
 
   --width-440px: 440px;
+  --width-100percent: 100%;
+  --height-100percent: 100%;
 
   --border-0: 0;
 
   --display-f: flex;  
+
+  --top-0: 0;
+
 }
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 body {
   margin: 0;
@@ -38,21 +45,17 @@ body {
 .wrapper {
   background-color: var(--background-color-white);
   max-width: 1320px;
-  margin: 15px auto;
+  margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0,0.1);
 }
 .sticky {
   position: sticky;
   top: 10px;
-  z-index: 1000;
+  z-index: 2;
 }
-.title {
-  width: 100%;
-  text-align: center;
-  font-size: 35px;
-  margin: 25px 0px 0px 0px;
-}
+
 #heading {
   text-align: center;
+  margin: 35px 0px 0px 0px; 
 }

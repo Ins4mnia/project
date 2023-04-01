@@ -4,13 +4,13 @@ class Header {
       <div class='wrapper'>
         <header class="header">
           <div class="header__leftside">
-            <a href="#" class="header__leftside__links">&#9868;</a>
+            <button class="header__leftside__menu-open-btn">≡</button>
           </div>
           <div class="header__center">
             <p>Logo</p>
           </div>
           <div class="header__rightside">
-            <img src="./img/header/header__basket.png">
+            <button class="header__rightside__card-open-btn"><img src="./img/header/header__basket.png"></button>
           </div>
         </header>
       </div>

@@ -16,12 +16,16 @@
   width: 35px;
   cursor: pointer;
 }
-.header__leftside__links {
+.header__leftside__menu-open-btn, .header__rightside__card-open-btn {
   text-decoration: var(--text-decoration-none);
   font-size: 35px;
+  border: 0;
+  background: 0;
+  cursor: pointer;
 }
-.header__leftside__links:first-child {
-  margin-left: var(--margin-0);
+
+.header__leftside__menu-open-btn:active, .header__rightside__card-open-btn:active {
+  transform: translateY(1px);
 }
 /* .header__rightside__btn{
   font-size: var(--font-size-15);
