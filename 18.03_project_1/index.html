@@ -11,25 +11,39 @@
   <body>
     <div id="header" class="sticky"></div>
     <div id="header_menu"></div>
-    <h1  id="heading">Каталог</h1>
-    <div id="slider-content"></div>
+    <div id="header_card"></div>
+    <h1  id="catalog_heading">Каталог</h1>
+    <div id="catalog"></div>
+    <h1  id="products_heading">Товары</h1>
+    <div id="products"></div>
+
+    <script src="./const/products/c1.js"></script>
+    <script src="./const/products/c2.js"></script>
+
 
     <script src="./const/catalog.js"></script>
-    <script src="./const/products.js"></script>
     <script src="./const/root.js"></script>
     <script src="./utils/localStorage.js"></script>
-
+    
     <script src="./components/Header/Header.js"></script>
     <link rel="stylesheet" href="./components/Header/Header.css">
 
     <script src="./components/Header/Header_menu/Header-menu.js"></script>
     <script src="./components/Header/Header_menu/Header_menu-plugin.js"></script>
+    <script src="./components/Header/Header_menu/Header_menu_dropdown-plugin.js"></script>
     <link rel="stylesheet" href="./components/Header/Header_menu/Header_menu.css">
-
-    <script src="./components/Slider_Content/Slider_Content.js"></script>
-    <link rel="stylesheet" href="./components/Slider_Content/Slider_Content.css">
-
+    
+    <link rel="stylesheet" href="./components/Header/Header_card/Header_card.css">
+    <script src="./components/Header/Header_card/Header_card.js"></script>
+    <script src="./components/Header/Header_card/Header_card-plugin.js"></script>
+    
+    <script src="./components/Catalog/Catalog.js"></script>
+    <link rel="stylesheet" href="./components/Catalog/Catalog.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./const/swiper.js"></script>
+    <script src="./components/Catalog/swiper.js"></script>
+
+    <link rel="stylesheet" href="./components/Products/Products.css">
+    <script src="./components/Products/Products-pliugin.js"></script>
+    <script src="./components/Products/Products.js"></script>
   </body>
 </html>

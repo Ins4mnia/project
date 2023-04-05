@@ -27,22 +27,8 @@
 .header__leftside__menu-open-btn:active, .header__rightside__card-open-btn:active {
   transform: translateY(1px);
 }
-/* .header__rightside__btn{
-  font-size: var(--font-size-15);
-  border: var(--border-0);
-  background: var(--background-color-colorless);
-  padding: 0;
+.header__center__logo {
+  color: black;
+  text-decoration: none;
+  cursor: default;
 }
-.header__rightside__counter{
-  font-size: 17px;
-  margin-left: 6px;
-  color: var(--font-color-black);
-}
-.header__rightside__tel {
-  margin: var(--margin-0);
-  font-size: var(--font-size-15);
-}
-.header__rightside__tel_link {
-  margin-left: 5px;
-  text-decoration: var(--text-decoration-none);
-} */

@@ -54,8 +54,27 @@ body {
   top: 10px;
   z-index: 2;
 }
+.active {
+  top: var(--top-0);
+  z-index: 3;
+  width: var(--width-100percent);
+  height: var(--height-100percent);
+  background-color: rgba(0,0,0,0.5);
+  transition: background-color .5s ease;
+  position: fixed;
+}
+.none {
+  display: none;
+}
+.flex {
+  display: var(--display-f) !important;  
+}
 
-#heading {
+#catalog_heading {
   text-align: center;
   margin: 35px 0px 0px 0px; 
+}
+#products_heading {
+  text-align: center;
+  margin: 35px 0px 10px 0px; 
 }

@@ -1,18 +1,3 @@
-.active {
-  top: var(--top-0);
-  z-index: 3;
-  width: var(--width-100percent);
-  height: var(--height-100percent);
-  background-color: rgba(0,0,0,0.5);
-  transition: background-color .5s ease;
-  position: fixed;
-}
-.none {
-  display: none;
-}
-.flex {
-  display: var(--display-f) !important;  
-}
 .menu {
   top: var(--top-0);
   z-index: 3;
@@ -23,8 +8,9 @@
   transform: translateX(-450px);
   transition: transform .6s ease;
 }
-.menu_inner {
+.menu-inner {
   top: var(--top-0);
+  padding: 20px;
   z-index: 3;
   display: var(--display-f);
   font-size: var(--font-size-30);
@@ -34,9 +20,8 @@
   display: var(--display-f);
   color: black;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0px 20px 20px 20px;
   justify-content: space-between;
-  border-bottom: 1px solid black;
 }
 .menu-inner__heading__logo {
   color: black;
@@ -44,7 +29,7 @@
   text-decoration: none;
   cursor: default;
 }
-.menu-inner__heading__close-button {
+.menu-inner__heading__menu-close-button {
   border: var(--border-0);
   height: 40px;
   margin: auto 0;
@@ -59,7 +44,7 @@
   color: black;
   padding: 10px 20px;
   text-decoration: none;
-  border-bottom: 1px solid black  ;
+  border-bottom: 1px solid black;
 }
 .menu-inner__drop-btn {
   cursor: pointer;
@@ -82,10 +67,10 @@
   text-decoration: none;
   color: black;
 }
-.menu-inner__link:active, .menu-inner__heading__close-button:active,.menu_inner__dropdown-content__link:active,.menu-inner__drop-btn:active{
+.menu-inner__link:active, .menu-inner__heading__menu-close-button:active,.menu_inner__dropdown-content__link:active,.menu-inner__drop-btn:active{
   transform: translateY(1px);
 }
-.menu-inner__link:hover, .menu-inner__heading__close-button:hover, .menu-inner__link-btn:hover,.menu_inner__dropdown-content__link:hover, .menu-inner__drop-btn:hover{
+.menu-inner__link:hover, .menu-inner__heading__menu-close-button:hover, .menu-inner__link-btn:hover,.menu_inner__dropdown-content__link:hover, .menu-inner__drop-btn:hover{
   background-color: var(--background-color-dim);
 }
 @media screen and (max-width:450px) {

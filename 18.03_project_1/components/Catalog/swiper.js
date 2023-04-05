@@ -5,7 +5,6 @@ const swiper = new Swiper('.swiper', {
   },
   slidesPerView: 1,
   spaceBetween: 0,
-  // Responsive breakpoints
   breakpoints: {
     320: {
       slidesPerView: 1,
@@ -23,3 +22,5 @@ const swiper = new Swiper('.swiper', {
   loop: false,
   speed:400,
 }); 
+
+// фреймворк для создания слайдера

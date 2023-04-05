@@ -1,3 +1,5 @@
-const ROOT_PRODUCTS = document.getElementById('slider-content')
+const ROOT_CATALOG = document.getElementById('catalog')
 const ROOT_HEADER = document.getElementById('header')
 const ROOT_HEADER_MENU = document.getElementById('header_menu')
+const ROOT_HEADER_CARD = document.getElementById('header_card')
+const ROOT_PRODUCTS = document.getElementById('products')
