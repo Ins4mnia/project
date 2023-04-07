@@ -17,6 +17,7 @@ class Catalog {
       `
     })
     const htmlC = `
+    <h1  id="catalog_heading">Каталог</h1>
     <div class="swiper catalog-wrapper">
       <div class="swiper-wrapper">
         ${htmlCatalog}

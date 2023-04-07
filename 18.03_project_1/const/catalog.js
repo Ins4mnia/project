@@ -1,27 +1,22 @@
 const CATALOG = [
   {
-    id: 'c1',
+    id: 'Kyratnik',
     name: 'Курятник',
     img: 'img/header/header__basket.png',
   },
   {
-    id: 'c2',
+    id: 'Kormushki',
     name: 'Кормушки',
     img: 'img/header/header__basket.png',
   },
   {
-    id: 'c3',
+    id: 'Korm',
     name: 'Корм',
     img: 'img/header/header__basket.png',
   },
   {
-    id: 'c4',
+    id: 'Dobavki',
     name: 'Добавки',
-    img: 'img/header/header__basket.png',
-  },
-  {
-    id: 'c5',
-    name: 'Прикол',
     img: 'img/header/header__basket.png',
   },
 ]
